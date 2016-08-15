@@ -6,3 +6,10 @@ each Piksi module provides its location with typical GPS accuracy (about 3 meter
 Typically one module is a stationary base station, which may be located at a surveyed point,
 while the other is mounted on a rover and provides ROS navigation software with a highly
 accurate position relative to the base station.
+
+cd ~/ros_workspace/src/mbzirc/miscellaneous/libsbp
+mkdir build
+cd build
+cmake ../
+make
+sudo make install   # install headers and libraries into /usr/local
