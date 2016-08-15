@@ -7,9 +7,11 @@ Typically one module is a stationary base station, which may be located at a sur
 while the other is mounted on a rover and provides ROS navigation software with a highly
 accurate position relative to the base station.
 
+```bash
 cd ~/ros_workspace/src/mbzirc/miscellaneous/libsbp
 mkdir build
 cd build
 cmake ../
 make
 sudo make install   # install headers and libraries into /usr/local
+ ```
